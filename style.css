@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #621ffd;
+    --primary-color: #4f1ffd;
     --bg-color: #130f0d;
     --text-color: #f0f0f5;
     --light-color: rgba(255, 255, 255, 0.04);
@@ -70,7 +70,6 @@ button {
     /* text */
     color: var(--text-color);
     font-size: 1em;
-    
 
 }
 
@@ -108,9 +107,4 @@ input:valid ~ label {
 .input span.error.active {
     border: 1px solid red;
     padding: 0.4em;
-}
-
-#button-enviar {
-    border-radius: 4px;
-    cursor: pointer;
 }
